@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="486px"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <View 
+        android:layout_width="486px"
+	    android:layout_height="60px"
+	    android:background="@drawable/at_sf_popup_title_bg"   
+     />
+    
+     <TextView 
+         android:layout_width="486px"
+    	android:layout_height="40px"
+    	android:gravity="center_vertical"
+    	android:layout_marginLeft="20px"
+    	android:layout_marginTop="4px"
+    	android:text="핸드폰 소유 인증"   
+    	android:textColor="#ffffff"      
+        />
+    <Button 
+        android:id="@+id/btnClose"
+     	android:layout_width="37px"
+    	android:layout_height="40px"
+    	android:layout_marginLeft="439px"
+    	android:layout_marginTop="4px"
+      	android:background="@drawable/at_lp_btn_close_n"
+     />
+   <View 
+        android:layout_width="486px"
+	    android:layout_height="258px"
+	    android:background="@drawable/at_sf_popup_certi03_bg"   
+	    android:layout_marginTop="60px"
+     />
+   
+   <TextView 
+	        android:layout_width="104px"
+	    	android:layout_height="29px"
+	    	android:layout_marginLeft="40px"
+	    	android:layout_marginTop="75px"
+	    	android:gravity="center_vertical"
+	    	android:text="이름"
+	    	android:textColor="#ffffff"    	
+	    	android:textSize="13px"
+	    />
+    <View 
+        android:layout_width="200px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="144px"
+    	android:layout_marginTop="75px"
+    	android:background="@drawable/at_popup_pw_textbox"
+        
+     />
+    <EditText 
+        android:id="@+id/edit_Phone_Auth_Name"
+        android:layout_width="195px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="149px"
+    	android:layout_marginTop="75px"
+		android:textColor="#ffffff"
+		android:textSize="16px"
+    	android:background="#00000000"
+    	android:singleLine="true"
+     />
+    
+    <TextView 
+	        android:layout_width="104px"
+	    	android:layout_height="29px"
+	    	android:layout_marginLeft="40px"
+	    	android:layout_marginTop="117px"
+	    	android:gravity="center_vertical"
+	    	android:text="주민번호 생일"
+	    	android:textColor="#ffffff"    	
+	    	android:textSize="13px"
+	    />
+    <View 
+        android:layout_width="230px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="144px"
+    	android:layout_marginTop="117px"
+    	android:background="@drawable/at_sf_mem_popup_momember_select"
+        
+     />
+    <EditText 
+        android:id="@+id/edit_Auth_Jumin_1"
+        android:layout_width="72px"
+    	android:layout_height="23px"
+    	android:layout_marginLeft="148px"
+    	android:layout_marginTop="120px"
+		android:textColor="#ffffff"
+		android:textSize="14px"
+		android:hint="예) 1983"
+		android:gravity="center"
+    	android:background="#00000000"
+    	android:singleLine="true"
+    	android:maxLength="4"
+    	android:inputType="number"
+     />
+    
+    <EditText 
+        android:id="@+id/edit_Auth_Jumin_2"
+        android:layout_width="72px"
+    	android:layout_height="23px"
+    	android:layout_marginLeft="223px"
+    	android:layout_marginTop="120px"
+		android:textColor="#ffffff"
+		android:textSize="14px"
+		android:hint="09"
+		android:gravity="center"
+    	android:background="#00000000"
+    	android:singleLine="true"
+    	android:maxLength="2"
+    	android:inputType="number"
+     />
+   
+    <EditText 
+        android:id="@+id/edit_Auth_Jumin_3"
+        android:layout_width="72px"
+    	android:layout_height="23px"
+    	android:layout_marginLeft="298px"
+    	android:layout_marginTop="120px"
+		android:textColor="#ffffff"
+		android:textSize="14px"
+		android:hint="14"
+		android:gravity="center"
+    	android:background="#00000000"
+    	android:singleLine="true"
+    	android:maxLength="2"
+    	android:inputType="number"
+     />
+    
+    
+    
+    
+    <Button 
+	        android:id="@+id/btnAuth_Phone_NumberTrans"
+	     	android:layout_width="90px"
+	    	android:layout_height="27px"
+	    	android:text="인증번호 발송"
+	    	android:gravity="center"
+	    	android:textColor="#ffffff"
+	    	android:textSize="11px"
+	    	android:layout_marginLeft="335px"
+	    	android:layout_marginTop="157px"
+	      	android:background="@drawable/at_popup_btn_bg01"
+	     />
+    <TextView 
+	        android:layout_width="104px"
+	    	android:layout_height="29px"
+	    	android:layout_marginLeft="40px"
+	    	android:layout_marginTop="157px"
+	    	android:gravity="center_vertical"
+	    	android:text="휴대폰 번호"
+	    	android:textColor="#ffffff"    	
+	    	android:textSize="13px"
+	    />
+    <View 
+        android:layout_width="185px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="144px"
+    	android:layout_marginTop="157px"
+    	android:background="@drawable/at_popup_pw_textbox"
+        
+     />
+    <EditText 
+        android:id="@+id/edit_Phone_Auth_phoneNumber"
+        android:layout_width="180px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="149px"
+    	android:layout_marginTop="157px"
+		android:textColor="#ffffff"
+		android:textSize="16px"
+		android:hint="예) 01033695508"
+    	android:background="#00000000"
+    	android:singleLine="true"
+    	android:maxLength="11"
+    	android:inputType="number"
+     />
+
+    <TextView 
+	        android:layout_width="104px"
+	    	android:layout_height="29px"
+	    	android:layout_marginLeft="40px"
+	    	android:layout_marginTop="203px"
+	    	android:gravity="center_vertical"
+	    	android:text="인증번호 입력"
+	    	android:textColor="#ffffff"    	
+	    	android:textSize="13px"
+	    />
+    <View 
+        android:layout_width="185px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="144px"
+    	android:layout_marginTop="203px"
+    	android:background="@drawable/at_popup_pw_textbox"
+        
+     />
+    <EditText 
+        android:id="@+id/edit_Auth_Number"
+        android:layout_width="180px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="149px"
+    	android:layout_marginTop="203px"
+		android:textColor="#ffffff"
+		android:textSize="16px"
+    	android:background="#00000000"
+    	android:singleLine="true"
+    	android:inputType="number"
+     />
+    
+    <TextView 
+        android:id="@+id/txtAuthTime"
+        android:textColor="#ffffff"
+        android:textSize="13px"
+        android:gravity="center"
+        android:layout_width="90px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="335px"
+    	android:layout_marginTop="203px"
+    	android:background="@drawable/at_popup_pw_textbox"
+     />
+    <TextView 
+	        android:layout_width="404px"
+	    	android:layout_height="29px"
+	    	android:layout_marginLeft="40px"
+	    	android:layout_marginTop="234px"
+	    	android:gravity="center_vertical"
+	    	android:text="* 현재 인증창을 닫으시면 인증번호를 재 발송해야 합니다."
+	    	android:textColor="#88ffffff"    	
+	    	android:textSize="13px"
+	    />
+    <TextView 
+	        android:layout_width="404px"
+	    	android:layout_height="29px"
+	    	android:layout_marginLeft="40px"
+	    	android:layout_marginTop="253px"
+	    	android:gravity="center_vertical"
+	    	android:text="* 인증시간 5분 경과 후에는 인증번호를 재 발송해야 합니다."
+	    	android:textColor="#88ffffff"    	
+	    	android:textSize="13px"
+	    />
+   <View 
+        android:layout_width="486px"
+	    android:layout_height="84px"
+	    android:background="@drawable/at_sf_popupbg00"   
+	    android:layout_marginTop="303px"
+     />
+	<TableRow 
+        android:layout_width="match_parent"
+    	android:layout_height="68px"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="303px"
+        
+    >
+        <Button 
+	        android:id="@+id/btnConfirm"
+	     	android:layout_width="92px"
+	    	android:layout_height="29px"
+	    	android:text="확인"
+	    	android:gravity="center"
+	    	android:textColor="#ffffff"
+	    	android:textSize="13px"
+	      	android:background="@drawable/at_popup_btn_bg01"
+	     />
+        
+        <Button 
+	        android:id="@+id/btnCancle"
+	     	android:layout_width="92px"
+	    	android:layout_height="29px"
+	    	android:text="취소"
+	    	android:gravity="center"
+	    	android:textColor="#ffffff"
+	    	android:textSize="13px"
+	    	android:layout_marginLeft="10px"
+	      	android:background="@drawable/at_popup_btn_bg02"
+	     />
+    </TableRow>
+   
+</RelativeLayout>

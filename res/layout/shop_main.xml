@@ -1,0 +1,227 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/at_bg01"
+     >
+     
+    <ImageView 
+        android:layout_width="800px"
+    	android:layout_height="56px"
+    	android:background="@drawable/at_titlebarbg"
+    />
+     <TextView 
+        android:id="@+id/txt_AdGallery_Logo"
+        android:layout_width="320px"
+    	android:layout_height="40px"
+    	android:layout_marginTop="8px"
+    	android:layout_marginLeft="78px"
+    	android:textColor="#ffffff"
+    	android:textSize="20px"
+    	android:singleLine="true"
+    	android:gravity="center_vertical"
+    />
+
+    <ImageView 
+        android:id="@+id/btnMenu_Activity"
+        android:layout_width="40px"
+    	android:layout_height="40px"
+    	android:layout_marginTop="10px"
+    	android:layout_marginLeft="10px"
+    	android:background="@drawable/at_btn_menu"
+    />
+      <ImageView 
+        android:id="@+id/btnGo_Main"
+        android:layout_width="30px"
+    	android:layout_height="30px"
+    	android:layout_marginTop="13px"
+    	android:layout_marginLeft="632px"
+    	android:background="@drawable/im_sub_btn_home_n"
+    />
+   <ImageButton 
+        android:id="@+id/btn_Brand_Activity"
+        android:layout_width="30px"
+    	android:layout_height="30px"
+    	android:layout_marginTop="13px"
+    	android:layout_marginLeft="692px"
+    	android:background="@drawable/im_sub_btn_brand_n"
+    />
+   
+   <ImageView 
+        android:id="@+id/btnBack_Page"
+       android:layout_width="30px"
+    	android:layout_height="30px"
+    	android:layout_marginTop="13px"
+    	android:layout_marginLeft="752px"
+    	android:background="@drawable/im_sub_btn_prev_n"
+    />
+    
+    <TextView 
+        android:id="@+id/txtCategoryName"
+        android:layout_width="341px"
+    	android:layout_height="42px"
+    	android:layout_marginTop="91px"
+    	android:layout_marginLeft="20px"
+    	android:textColor="#ffffff"
+    	android:textSize="32px"
+    	android:text="매장정보"
+    	android:gravity="center_vertical"
+    />
+    
+    <ImageView 
+        android:layout_width="26px"
+    	android:layout_height="5px"
+    	android:layout_marginTop="142px"
+    	android:layout_marginLeft="20px"
+    	android:background="@drawable/at_img_titleunderbar"
+    />
+    
+    <View 
+         android:layout_width="776px"
+    	android:layout_height="132px"
+    	android:layout_marginTop="172px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/at_sf_store_btnbg"
+     />
+    
+    <RelativeLayout 
+        android:id="@+id/AreaBtnLayout"
+         android:layout_width="753px"
+    	android:layout_height="116px"
+    	android:layout_marginTop="180px"
+    	android:layout_marginLeft="22px"
+     />
+    
+    <TableRow 
+         android:layout_width="784px"
+    	android:layout_height="106px"
+    	android:layout_marginTop="322px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/at_sub_search_bg02"   
+     	android:gravity="center"
+     	android:orientation="horizontal"
+     >
+        <TableRow 
+         android:layout_width="404px"
+    	android:layout_height="49px"
+     	android:background="@drawable/at_sub_search_textbox02"   
+     	android:gravity="center"
+     >
+             <EditText 
+                 android:id="@+id/editShopNameSearch"
+              android:layout_width="384px"
+		    	android:layout_height="49px"
+		    	android:layout_marginLeft="10px"
+		    	android:textColor="#ffffff"
+		    	android:textSize="20px"
+		    	android:hint="매장명 검색"
+		    	android:singleLine="true"
+		     	android:background="#00000000"   
+            
+        	/>
+            
+            
+        </TableRow>
+       
+        <Button 
+            android:id="@+id/btnShopNameSearch"
+         android:layout_width="96px"
+    	android:layout_height="49px"
+         android:background="@drawable/at_sub_search_btn02"   
+         />
+        
+    </TableRow>
+    <TableRow 
+        
+        android:layout_width="780px"
+    	android:layout_height="38px"
+    	android:layout_marginTop="445px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/im_sf_store_gridtop"   
+     >
+       <TextView
+    		android:layout_width="64px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="구분"
+         />
+    
+        <TextView
+            android:id="@+id/txtShopAreaZone"
+			android:layout_width="64px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="지역"
+         />
+        
+    <TextView 
+        	android:id="@+id/txtShopAreaShopName"
+        	android:layout_width="147px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="매장명"
+        />
+    
+     <TextView 
+        	android:id="@+id/txtShopAreaAddr"
+        	android:layout_width="371px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="주소"
+        />
+     
+      <TextView 
+        	android:id="@+id/txtShopAreaPhone"
+        	android:layout_width="121px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="14px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="전화번호"
+        />
+    </TableRow>
+   <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="700px"
+    android:layout_marginTop="485px"
+    android:layout_marginLeft="10px"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="780px"
+        android:layout_height="match_parent" android:layout_weight="1"
+        android:fadingEdgeLength="0px"
+        android:dividerHeight="0px"
+        android:divider="#00000000"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        >
+    </ListView>
+    <fnc.salesforce.android.PullToList.BottomPullToRefreshView
+        android:id="@+id/pull_to_refresh2"
+        android:layout_width="780px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </fnc.salesforce.android.PullToList.BottomPullToRefreshView>
+</LinearLayout>
+</RelativeLayout>

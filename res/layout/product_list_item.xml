@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="282px"
+    android:layout_height="90px"
+    android:gravity="center_vertical"
+    android:background="@drawable/at_sub_productlayerbg"
+     >
+    
+    <ImageView 
+        android:id="@+id/imgProductThumb"
+       	android:layout_width="80px"
+    	android:layout_height="80px"    
+    	android:layout_marginLeft="10px"
+    	android:background="@drawable/at_sub_noimage"
+       />
+    <ImageView 
+       	android:layout_width="80px"
+    	android:layout_height="80px"    
+    	android:background="@drawable/at_sub_productbox"
+    	android:layout_marginLeft="10px"
+       />
+    
+     <TextView
+         	android:id="@+id/txtProductName"
+    		android:layout_width="fill_parent"
+    		android:layout_height="23px"
+    		android:layout_marginLeft="110px"
+    		android:textSize="12px"
+    		android:gravity="center_vertical"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+         />
+        <TextView
+            android:id="@+id/txtProductCode"
+			android:layout_width="fill_parent"
+    		android:layout_height="20px"	    
+        	android:layout_marginLeft="110px"
+        	android:layout_marginTop="25px"
+    		android:textSize="12px"
+    		android:gravity="center_vertical"
+    		android:singleLine="true"
+    		android:textColor="#89bd08"
+         />
+        
+    <TextView 
+        	android:id="@+id/txtProductState"
+        	android:layout_width="fill_parent"
+	    	android:layout_height="24px"    
+	    	android:layout_marginLeft="110px"
+        	android:layout_marginTop="50px"
+        	android:textSize="12px"
+        	android:singleLine="true"
+        	android:textColor="#ffffff"
+        />
+</RelativeLayout>

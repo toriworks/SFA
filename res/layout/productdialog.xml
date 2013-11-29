@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="597px"
+    android:layout_height="293px"
+    android:background="@drawable/at_sf_inv_layerpop_bg"
+    >
+    
+     
+     
+      <TextView 
+          android:layout_width="370px"
+    		android:layout_height="38px"  
+    		android:layout_marginTop="13px"   
+    		android:layout_marginLeft="17px"
+    		android:text="분류코드"
+    		android:textColor="#ffffff"
+    		android:textSize="14px"
+    		android:gravity="center"
+      />
+      
+      <TextView 
+          android:layout_width="189px"
+    		android:layout_height="38px"  
+    		android:layout_marginTop="13px"   
+    		android:layout_marginLeft="392px"
+    		android:text="사이즈"
+    		android:textColor="#ffffff"
+    		android:textSize="14px"
+    		android:gravity="center"
+      />
+    <ScrollView 
+            android:layout_width="370px"
+    		android:layout_height="154px"  
+    		android:layout_marginTop="52px"   
+    		android:layout_marginLeft="17px"
+         >
+            <RelativeLayout 
+                android:id="@+id/layoutSearchCode"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:background="#00000000"
+            />
+        </ScrollView>
+        
+    
+     <ScrollView 
+            android:layout_width="189px"
+    		android:layout_height="154px"  
+    		android:layout_marginTop="52px"   
+    		android:layout_marginLeft="392px"
+         >
+            <RelativeLayout 
+                android:id="@+id/layoutSearchSize"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:background="#00000000"
+            />
+        </ScrollView>
+    
+    <TableRow 
+     	android:layout_width="597px"
+    	android:layout_height="29px"
+    	android:gravity="center"        
+    	android:layout_marginTop="240px"
+     >
+        <Button 
+            android:id="@+id/btnDetailConfirm"
+            android:layout_width="92px"
+    		android:layout_height="29px"
+            android:background="@drawable/at_sf_btn_ok001"
+        />
+        <Button 
+            android:id="@+id/btnDetailCancle"
+            android:layout_width="92px"
+    		android:layout_height="29px"
+          	 android:text="취소"
+	    	android:gravity="center"
+	    	android:textColor="#ffffff"
+	    	android:textSize="13px"
+	    	android:layout_marginLeft="10px"
+	      	android:background="@drawable/at_popup_btn_bg02"
+        />
+    </TableRow>
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="66px"
+    android:layout_gravity="top"
+    android:background="@drawable/at_sub_topbgline"
+    android:gravity="center_vertical"
+     android:id="@+id/llHeader"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/pdf_btn_index_n" android:layout_marginLeft="10px"/>
+
+    <Button
+        android:id="@+id/btnSel0"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/pdf_btn_thumb_n" android:layout_marginLeft="20px"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40px"
+        android:orientation="horizontal" android:layout_weight="1" android:gravity="center" android:id="@+id/llYearSelect">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="2011"
+            android:gravity="center" android:textColor="#8f400f" android:textSize="30sp"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnCfg"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/pdf_btn_close_n" />
+
+</LinearLayout>

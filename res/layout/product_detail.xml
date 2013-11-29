@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+     >
+     
+    <RelativeLayout 
+    	android:layout_width="658px"
+    	android:layout_height="888px"
+    	android:background="@drawable/at_layerpopup_bg"
+    	android:gravity="center"    
+    >
+    	<RelativeLayout 
+	    	android:layout_width="638px"
+	    	android:layout_height="870px"
+	    	android:background="@drawable/at_layerpopup_box"
+    	>
+    	
+    	    <TextView 
+    	        android:id="@+id/txtProductName"
+    	     android:layout_width="274px" 
+    	     android:layout_height="38px"
+    	  	android:text="제품코드 "
+    	  	android:textSize="14px"
+    	  	android:layout_marginLeft="8px"
+    	  	android:singleLine="true"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <ImageView 
+    	     android:id="@+id/imgPruDuctThumb"
+    	    android:layout_width="240px" 
+    	     android:layout_height="240px"
+    	  	android:layout_marginTop="64px"   
+    	  	android:layout_marginLeft="8px"
+    	  	android:scaleType="centerInside"
+    	  />
+    	 
+    	 <ImageButton
+	        android:id="@+id/btnContentsCn"
+	        android:layout_width="106px"
+	    	android:layout_height="40px"
+	    	android:layout_marginLeft="279px"
+	        android:background="@drawable/im_lp_btn_detail_o"
+	     />
+	    
+	    <ImageButton 
+    	     android:id="@+id/btnPruductInventory"
+    	     android:layout_width="106px"
+	    	android:layout_height="40px"
+    	  	android:layout_marginLeft="387px"
+	        android:background="@drawable/im_lp_btn_inventory_n"
+	     />
+	    
+	    <ImageButton 
+    	     android:id="@+id/btnPruductTOP_3"
+    	     android:layout_width="106px"
+	    	android:layout_height="40px"
+    	  	android:layout_marginLeft="493px"
+	        android:background="@drawable/im_lp_btn_star_n"
+	     />
+    
+    	 <ImageButton 
+    	     android:id="@+id/btnClose"
+    	   android:layout_width="38px" 
+    	     android:layout_height="40px"
+    	  	android:layout_marginLeft="600px"
+    	  	android:background="@drawable/at_lp_btn_close_n"
+    	  />
+    	 
+    	 <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="82px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="76px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="제품코드 "
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <TableRow 
+    	      android:layout_width="274px" 
+    	     android:layout_height="22px"
+    	  	android:layout_marginTop="73px"   
+    	  	android:layout_marginLeft="358px"
+    	     android:background="@drawable/at_lp_textbox"
+    	  >
+    	  <TextView 
+    	      android:id="@+id/txtProduct_Product_Code"
+    	      android:layout_width="match_parent" 
+    	     android:layout_height="match_parent"
+    	     android:layout_marginLeft="10px"
+    	     android:background="#00000000"
+    	     android:textSize="13px"
+    	     android:textColor="#89bd50"
+    	  />
+    	 </TableRow>
+    	 
+    	 
+    	 
+    	  <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="109px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="103px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="판매가 "
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <TableRow 
+    	      android:layout_width="274px" 
+    	     android:layout_height="22px"
+    	  	android:layout_marginTop="100px"   
+    	  	android:layout_marginLeft="358px"
+    	     android:background="@drawable/at_lp_textbox"
+    	  >
+    	  <TextView 
+    	      android:id="@+id/txtProduct_Price_SEll"
+    	      android:layout_width="match_parent" 
+    	     android:layout_height="match_parent"
+    	     android:layout_marginLeft="10px"
+    	     android:background="#00000000"
+    	     android:textSize="13px"
+    	     android:textColor="#89bd50"
+    	  />
+    	 </TableRow>
+    	 
+    	 
+    	 <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="136px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="130px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="정상가 "
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <TableRow 
+    	      android:layout_width="274px" 
+    	     android:layout_height="22px"
+    	  	android:layout_marginTop="127px"   
+    	  	android:layout_marginLeft="358px"
+    	     android:background="@drawable/at_lp_textbox"
+    	  >
+    	  <TextView 
+    	      android:id="@+id/txtProduct_Price_USALLY"
+    	      android:layout_width="match_parent" 
+    	     android:layout_height="match_parent"
+    	     android:layout_marginLeft="10px"
+    	     android:background="#00000000"
+    	     android:textSize="13px"
+    	     android:textColor="#89bd50"
+    	  />
+    	 </TableRow>
+    	 
+    	 
+    	 
+    	 <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="163px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="157px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="소재 "
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <TableRow 
+    	      android:layout_width="274px" 
+    	     android:layout_height="22px"
+    	  	android:layout_marginTop="154px"   
+    	  	android:layout_marginLeft="358px"
+    	     android:background="@drawable/at_lp_textbox"
+    	  >
+    	  <TextView 
+    	      android:id="@+id/txtProduct_Made_What"
+    	      android:layout_width="match_parent" 
+    	     android:layout_height="match_parent"
+    	     android:layout_marginLeft="10px"
+    	     android:background="#00000000"
+    	     android:textSize="13px"
+    	     android:textColor="#89bd50"
+    	  />
+    	 </TableRow>
+    	 
+    	 
+    	 
+    	 
+    	 <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="190px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="184px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="제조사 "
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <TableRow 
+    	      android:layout_width="274px" 
+    	     android:layout_height="22px"
+    	  	android:layout_marginTop="181px"   
+    	  	android:layout_marginLeft="358px"
+    	     android:background="@drawable/at_lp_textbox"
+    	  >
+    	  <TextView 
+    	       android:id="@+id/txtProduct_Made_By"
+    	      android:layout_width="match_parent" 
+    	     android:layout_height="match_parent"
+    	     android:layout_marginLeft="10px"
+    	     android:background="#00000000"
+    	     android:textSize="13px"
+    	     android:textColor="#89bd50"
+    	  />
+    	 </TableRow>
+    	 
+    	 
+    	 
+    	 <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="217px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="211px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="원산지"
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	     
+    	 />
+    	 <TableRow 
+    	      android:layout_width="274px" 
+    	     android:layout_height="22px"
+    	  	android:layout_marginTop="208px"   
+    	  	android:layout_marginLeft="358px"
+    	     android:background="@drawable/at_lp_textbox"
+    	  >
+    	  <TextView 
+    	      android:id="@+id/txtProduct_Made"
+    	      android:layout_width="match_parent" 
+    	     android:layout_height="match_parent"
+    	     android:layout_marginLeft="10px"
+    	     android:background="#00000000"
+    	     android:textSize="13px"
+    	     android:textColor="#89bd50"
+    	  />
+    	 </TableRow>
+    	 
+    	 
+    	 <ImageView 
+    	    android:layout_width="5px" 
+    	     android:layout_height="5px"
+    	  	android:layout_marginTop="260px"   
+    	  	android:layout_marginLeft="263px"
+    	  	android:background="@drawable/at_lp_bullet"
+    	  />
+    	 
+    	 <TextView 
+    	     android:layout_width="80px" 
+    	     android:layout_height="15px"
+    	  	android:layout_marginTop="254px"   
+    	  	android:layout_marginLeft="273px"
+    	  	android:text="Color"
+    	  	android:textSize="12px"
+    	  	android:gravity="center_vertical"
+    	  	android:textColor="#ffffff"
+    	 />
+    	 <RelativeLayout 
+    	     android:id="@+id/rowColor"
+    	      android:layout_width="274px" 
+    	     android:layout_height="60px"
+    	  	android:layout_marginTop="244px"   
+    	  	android:layout_marginLeft="358px"
+    	  />
+    	 <TextView 
+    	     android:id="@+id/txtMove"
+    	     android:layout_width="610px" 
+    	     android:layout_height="20px"
+    	  	android:layout_marginTop="315px"   
+    	  	android:layout_marginLeft="14px"
+    	  	android:text="*이동수량 제외"
+    	  	android:textSize="12px"
+    	  	android:gravity="right|center_vertical"
+    	  	android:textColor="#ffffff"
+    	 />
+    	<android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+			android:layout_height="match_parent"
+	    	android:layout_marginTop="315px"
+            />
+    	</RelativeLayout>
+        
+    </RelativeLayout>
+    
+     
+</RelativeLayout>

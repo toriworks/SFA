@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/at_bg01"
+     >
+  
+    <View 
+         android:layout_width="780px"
+    	android:layout_height="197px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/at_sf_as_searchbg"
+     />
+    
+    <TextView
+			android:layout_width="160px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="10px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="구분" 
+         />
+    
+    
+    <TextView
+			android:layout_width="615px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="170px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="수선상품/품종구분" 
+         />
+    
+    	<ScrollView 
+            android:layout_width="150px"
+    		android:layout_height="150px"  
+    		android:layout_marginTop="43px"   
+    		android:layout_marginLeft="13px"
+         >
+           <RelativeLayout 
+               android:id="@+id/layoutRepairType"
+               android:layout_width="match_parent"
+   			android:layout_height="match_parent"
+               android:background="#00000000"
+           />
+       </ScrollView>
+       
+    	<ScrollView 
+            android:layout_width="150px"
+    		android:layout_height="150px"  
+    		android:layout_marginTop="43px"   
+    		android:layout_marginLeft="173px"
+         >
+           <RelativeLayout 
+               android:id="@+id/layoutRepairProduct"
+               android:layout_width="match_parent"
+   			android:layout_height="match_parent"
+               android:background="#00000000"
+           />
+       </ScrollView>
+    
+    	<ScrollView 
+            android:layout_width="455px"
+    		android:layout_height="150px"  
+    		android:layout_marginTop="43px"   
+    		android:layout_marginLeft="330px"
+         >
+           <RelativeLayout 
+               android:id="@+id/layoutRepairProduct_Third"
+               android:layout_width="match_parent"
+   			android:layout_height="match_parent"
+               android:background="#00000000"
+           />
+       </ScrollView>
+    <TableRow 
+        android:layout_width="784px"
+    	android:layout_height="53px"
+    	android:layout_marginTop="230px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/at_sub_search_bg"   
+     	android:gravity="right|center_vertical"
+     	android:orientation="horizontal"
+     >
+        <TableRow 
+         android:layout_width="220px"
+    	android:layout_height="29px"
+     	android:background="@drawable/at_sf_as_textbox"   
+     	android:gravity="center"
+     >
+             <EditText 
+                 android:id="@+id/editShopNameSearch"
+              android:layout_width="215px"
+		    	android:layout_height="29px"
+		    	android:layout_marginLeft="5px"
+		    	android:textColor="#ffffff"
+		    	android:textSize="16px"
+		    	android:hint="수선항목 입력"
+		    	android:singleLine="true"
+		     	android:background="#00000000"   
+            
+        	/>
+        </TableRow>
+       
+        <Button 
+            android:id="@+id/btnShopNameSearch"
+         android:layout_width="91px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="5px"
+    	android:layout_marginRight="15px"
+         android:background="@drawable/at_sf_btn_search001"   
+         />
+        
+    </TableRow>
+    <TableRow 
+        
+        android:layout_width="780px"
+    	android:layout_height="38px"
+    	android:layout_marginTop="285px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/at_sf_as_gridtop"   
+     >
+       <TextView
+    		android:layout_width="108px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="구분"
+         />
+    
+        <TextView
+			android:layout_width="115px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="5px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="수선상품구분" 
+         />
+        
+    <TextView 
+        	android:layout_width="126px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="4px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="수선품종구분"
+        />
+    
+     <TextView 
+        	android:layout_width="118px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="4px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="수선항목"
+        />
+     
+      <TextView 
+        	android:layout_width="95px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="4px"
+    		android:textSize="14px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="가격"
+        />
+      
+       <TextView 
+        	android:layout_width="95px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="3px"
+    		android:textSize="14px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="유료/무료"
+        />
+       
+       <TextView 
+        	android:layout_width="95px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="3px"
+    		android:textSize="14px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="비고"
+        />
+    </TableRow>
+   <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="700px"
+    android:layout_marginTop="325px"
+    android:layout_marginLeft="10px"
+    android:orientation="vertical" >
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="780px"
+        android:layout_height="match_parent" android:layout_weight="1"
+        android:fadingEdgeLength="0px"
+        android:dividerHeight="0px"
+        android:divider="#00000000"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        >
+    </ListView>
+    <fnc.salesforce.android.PullToList.BottomPullToRefreshView
+        android:id="@+id/pull_to_refresh2"
+        android:layout_width="780px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </fnc.salesforce.android.PullToList.BottomPullToRefreshView>
+</LinearLayout>
+</RelativeLayout>

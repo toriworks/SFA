@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" 
+   	android:layout_height="560px"
+     >
+    	 <RelativeLayout 
+    	     android:layout_width="match_parent" 
+   			android:layout_height="560px"
+   			
+    	 >
+    	     <RelativeLayout 
+    	     android:id="@+id/layoutProduct_Top3"
+    	     android:layout_width="match_parent" 
+   			android:layout_height="250px"
+   			android:layout_marginTop="100px"
+   			android:gravity="center"
+    	 />
+    	     
+    	 </RelativeLayout>
+      <TextView 
+          android:layout_width="match_parent" 
+   		android:layout_height="50px"
+   		android:layout_marginTop="40px"
+   		android:text="동일 품종 판매순위 TOP3"
+   		android:gravity="center"        
+   		android:textColor="#ffffff"
+   		android:textSize="20px"  
+       />
+</RelativeLayout>

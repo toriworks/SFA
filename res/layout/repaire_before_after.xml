@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/at_bg01"
+     >
+  
+     <View 
+         android:layout_width="780px"
+    	android:layout_height="149px"
+    	android:layout_marginLeft="10px"
+     	android:background="@drawable/at_sf_as_searchbg02"
+     />
+    
+    <TextView
+			android:layout_width="310px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="10px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="수선품종 구분" 
+         />
+    
+    <TextView
+			android:layout_width="465px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="322px"
+    		android:textSize="15px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+    		android:text="수선항목(A/S코드)" 
+         />
+    
+    	<ScrollView 
+            android:layout_width="307px"
+    		android:layout_height="100px"  
+    		android:layout_marginTop="43px"   
+    		android:layout_marginLeft="13px"
+         >
+           <RelativeLayout 
+               android:id="@+id/layoutRepairGoods"
+               android:layout_width="match_parent"
+   			android:layout_height="match_parent"
+               android:background="#00000000"
+           />
+       </ScrollView>
+       
+    	<ScrollView 
+            android:layout_width="460px"
+    		android:layout_height="100px"  
+    		android:layout_marginTop="43px"   
+    		android:layout_marginLeft="325px"
+         >
+           <RelativeLayout 
+               android:id="@+id/layoutRepairItem"
+               android:layout_width="match_parent"
+   			android:layout_height="match_parent"
+               android:background="#00000000"
+           />
+       </ScrollView>
+<ViewFlipper 
+		android:id="@+id/flipper"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+    	android:layout_marginLeft="10px"
+    	android:layout_marginTop="170px"
+    	 android:visibility="gone"
+	/>
+     
+     <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="10px"
+    	android:layout_marginTop="170px"
+           
+            >
+</android.support.v4.view.ViewPager>
+     <LinearLayout 
+        android:id="@+id/navigationRow"
+        android:layout_width="fill_parent"
+    	android:layout_height="15px"
+    	android:layout_marginTop="1100px"
+    	android:gravity="center"
+    	android:orientation="horizontal"
+     />
+     
+      <TextView 
+	 	    android:id="@+id/txtNavi"
+	 	    android:layout_width="fill_parent"
+			android:layout_height="15px"
+			android:textSize="11px"
+			android:textColor="#ffffff"
+	    	android:layout_marginTop="1015px"
+	    	android:gravity="center"
+	 	/>
+</RelativeLayout>

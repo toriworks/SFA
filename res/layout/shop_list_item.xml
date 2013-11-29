@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="780px"
+    android:layout_height="30px"
+     >
+    
+    <View 
+        android:id="@+id/imgBack"
+       	android:layout_width="780px"
+	    android:layout_height="29px"
+       />    
+        
+     <TextView
+         	android:id="@+id/txtShopAreaType"
+    		android:layout_width="64px"
+    		android:layout_height="29px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="12px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+         />
+    
+        <TextView
+            android:id="@+id/txtShopAreaZone"
+			android:layout_width="64px"
+    		android:layout_height="29px"
+    		android:layout_marginLeft="68px"
+    		android:textSize="12px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+         />
+        
+    <TextView 
+        	android:id="@+id/txtShopAreaShopName"
+        	android:layout_width="141px"
+    		android:layout_height="29px"
+    		android:layout_marginLeft="140px"
+    		android:textSize="12px"
+    		android:gravity="left|center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+    
+     <TextView 
+        	android:id="@+id/txtShopAreaAddr"
+        	android:layout_width="365px"
+    		android:layout_height="29px"
+    		android:layout_marginLeft="290px"
+    		android:textSize="12px"
+    		android:gravity="left|center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+     
+      <TextView 
+        	android:id="@+id/txtShopAreaPhone"
+        	android:layout_width="121px"
+    		android:layout_height="29px"
+    		android:layout_marginLeft="656px"
+    		android:textSize="12px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+</RelativeLayout>

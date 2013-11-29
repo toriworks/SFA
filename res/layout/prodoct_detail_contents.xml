@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="620px" 
+   	android:layout_height="560px"
+     >
+    	 <ScrollView 
+    	     android:id="@+id/layout_DetailContents"
+    	     android:layout_width="620px" 
+    	     android:layout_height="540px" 
+    	     android:layout_marginTop="20px"
+    	  	android:layout_marginLeft="14px"
+    	  	
+    	 >
+    	      <TextView 
+    	         android:id="@+id/txtProduct_Contents"
+	    	     android:layout_width="match_parent" 
+	    	     android:layout_height="match_parent"
+	    	  	android:textSize="18px"
+	    	  	android:textColor="#ffffff"
+    	 />
+    	     
+    	 </ScrollView>
+     
+</RelativeLayout>

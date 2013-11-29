@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="620px" 
+   	android:layout_height="560px"
+     >
+    	 <TextView 
+    	     android:id="@+id/txtMove"
+    	     android:layout_width="610px" 
+    	     android:layout_height="20px"
+    	  	android:layout_marginLeft="14px"
+    	  	android:text="*이동수량 제외"
+    	  	android:textSize="12px"
+    	  	android:gravity="right|center_vertical"
+    	  	android:textColor="#ffffff"
+    	 />
+    	 
+    	 <RelativeLayout 
+    	     android:id="@+id/layout_DetailList"
+    	     android:layout_width="630px" 
+    	     android:layout_height="540px" 
+    	     android:layout_marginTop="20px"
+    	  	android:layout_marginLeft="4px"
+    	  	android:gravity="center_horizontal"
+    	 >
+    	     <ImageView 
+    	         android:layout_width="624px" 
+    	     	android:layout_height="39px"
+    	         android:background="@drawable/at_lp_gridtop"
+    	     /> 
+    	     
+    	     <TextView
+	    		android:layout_width="153px"
+	    		android:layout_height="39px"
+	    		android:text="사이즈"
+	    		android:textSize="16px"
+	    		android:gravity="center"
+	    		android:layout_marginLeft="2px"
+	    		android:textColor="#ffffff"
+	         />
+	        <TextView
+				android:layout_width="153px"
+	    		android:layout_height="39px"	    
+	        	android:layout_marginLeft="157px"
+	    		android:text="매장재고"
+	    		android:textSize="16px"
+	    		android:gravity="center"
+	    		android:textColor="#89bd50"
+	         />
+	        
+	        <TextView
+				android:layout_width="153px"
+	    		android:layout_height="39px"	    
+	        	android:layout_marginLeft="312px"
+	    		android:text="전국재고"
+	    		android:textSize="16px"
+	    		android:gravity="center"
+	    		android:textColor="#ffffff"
+	         />
+	        
+	         <TextView
+				android:layout_width="153px"
+	    		android:layout_height="39px"	    
+	        	android:layout_marginLeft="467px"
+	    		android:text="창고재고"
+	    		android:textSize="16px"
+	    		android:gravity="center"
+	    		android:textColor="#ffffff"
+	         />
+    	     <ListView
+		      	android:id="@+id/beautyList"
+		      	android:layout_width="match_parent"
+		        android:layout_height="500px"
+		        android:fadingEdgeLength="0px"
+		        android:dividerHeight="0px"
+		        android:divider="#00000000"
+		        android:cacheColorHint="#00000000"
+		        android:layout_marginTop="40px"
+		      />
+    	     
+    	 </RelativeLayout>
+     
+</RelativeLayout>

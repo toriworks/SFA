@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<ViewAnimator
+		android:id="@+id/switcher"
+		android:layout_width="fill_parent"
+		android:layout_height="66px"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" 
+		android:background="@drawable/at_sub_topbgline"
+		>
+
+		<RelativeLayout
+			android:id="@+id/topBar0Main"
+			android:layout_width="match_parent"
+			android:layout_height="66px" >
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="58px"
+		        android:orientation="horizontal"   android:gravity="center" >
+		       <TextView
+					android:id="@+id/docNameText"
+					android:layout_width="500px"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:singleLine="true"
+					android:textColor="#FFFFFF"
+					android:textStyle="bold"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		    </LinearLayout>
+			
+
+
+			<ImageButton
+				android:id="@+id/reflowButton"
+				android:layout_width="40px"
+        		android:layout_height="40px"
+         		android:layout_marginLeft="70px"
+		        android:layout_marginTop="8px"
+        		android:background="@drawable/pdf_btn_thumb_n" />
+
+			<ImageButton
+				android:id="@+id/outlineButton"
+				android:layout_width="40px"
+		        android:layout_height="40px"
+		        android:layout_marginLeft="15px"
+		        android:layout_marginTop="8px"
+		        android:background="@drawable/pdf_btn_index_n"/>
+
+
+			<ImageButton
+				android:id="@+id/moreButton"
+				android:layout_width="30px"
+		        android:layout_height="30px"
+		        android:layout_marginRight="5dp"
+		         android:layout_marginTop="13px"
+				android:layout_alignParentRight="true"
+				android:background="@drawable/im_sub_btn_prev_n" />
+
+		</RelativeLayout>
+
+		
+
+		
+		</ViewAnimator>
+
+	<RelativeLayout
+		android:id="@+id/lowerButtons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true" >
+
+
+		<TextView
+			android:id="@+id/pageNumber"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="16dp"
+			android:background="@drawable/page_num"
+			android:textColor="#FFFFFF"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</RelativeLayout>
+	
+	
+	<RelativeLayout
+        android:id="@+id/layoutIndexList"
+        android:layout_width="195px"
+        android:layout_height="1178px"
+        android:layout_marginTop="55px"
+        android:background="@drawable/pdf_indexlistbg"
+        >
+        <ImageView 
+	     	android:layout_width="195px"
+	        android:layout_height="40px"
+	    	android:background="@drawable/pdf_indexlisttitle"   
+     	/>
+            <ListView
+		      	android:id="@+id/IndexList"
+		      	android:layout_width="195px"
+		        android:layout_height="1134px"
+		        android:fadingEdgeLength="0px"
+		        android:dividerHeight="0px"
+		        android:divider="#00000000"
+		        android:cacheColorHint="#00000000"
+		        android:layout_marginTop="42px"
+		      />
+            
+        </RelativeLayout>
+        
+	
+	<RelativeLayout
+        android:id="@+id/layoutProductList"
+        android:layout_width="318px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="58px"
+        >
+        <ImageView 
+            android:id="@+id/imgProduct_btn"
+	     	android:layout_width="36px"
+	        android:layout_height="150px"
+	         android:background="@drawable/pdf_productlisttitle01"  
+     	/>
+        <RelativeLayout
+	        android:id="@+id/layoutProductList"
+	        android:layout_width="282px"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/pdf_productlistbg"
+	        android:layout_marginLeft="36px"
+	        >
+            <ListView
+		      	android:id="@+id/ProductList"
+		      	android:layout_width="282px"
+		        android:layout_height="1004px"
+		        android:fadingEdgeLength="0px"
+		        android:dividerHeight="0px"
+		        android:divider="#00000000"
+		        android:cacheColorHint="#00000000"
+		        
+		      />
+            </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

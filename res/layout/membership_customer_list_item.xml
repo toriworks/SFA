@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="780px"
+    android:layout_height="38px"
+     >
+     <TableRow
+         android:id="@+id/imgBack"
+        android:layout_width="780px"
+    	android:layout_height="38px"
+     >
+       <TextView
+           android:id="@+id/txtMemberName"
+    		android:layout_width="99px"
+    		android:layout_height="38px"
+    		android:textSize="13px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+         />
+    
+        <TextView
+            android:id="@+id/txtMemberPhone"
+			android:layout_width="120px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="13px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+         />
+        
+    <TextView 
+        android:id="@+id/txtMemberBirth"
+        	android:layout_width="104px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="13px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+    
+     <TextView 
+         android:id="@+id/txtMemberPoint"
+        	android:layout_width="116px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="13px"
+    		android:gravity="right|center_vertical"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+     
+      <TextView 
+          android:id="@+id/txtMemberJoindate"
+        	android:layout_width="104px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="6px"
+    		android:textSize="14px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+      
+       <TextView 
+           android:id="@+id/txtMemberJoinShop"
+        	android:layout_width="220px"
+    		android:layout_height="38px"
+    		android:layout_marginLeft="2px"
+    		android:textSize="13px"
+    		android:gravity="center"
+    		android:singleLine="true"
+    		android:textColor="#ffffff"
+        />
+    </TableRow>
+</RelativeLayout>

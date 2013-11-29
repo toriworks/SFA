@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+     android:background="@drawable/at_bg01"
+     >
+     
+    <RelativeLayout 
+    	android:layout_width="712px"
+    	android:layout_height="790px"    
+        android:background="@drawable/at_login_brandbg"
+     >
+     
+        <ScrollView 
+            android:layout_width="696px"
+    		android:layout_height="730px"  
+    		android:layout_marginTop="55px"   
+    		android:layout_marginLeft="8px"
+         >
+            <RelativeLayout 
+                android:id="@+id/layoutBrandImg"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:background="#00000000"
+            />
+            
+            
+        </ScrollView>
+      
+    </RelativeLayout>
+</RelativeLayout>

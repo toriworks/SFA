@@ -1,0 +1,87 @@
+# view res/layout/ad_gallery_main.xml #generated:16
+# view res/layout/look_10001_detail.xml #generated:47
+# view res/layout/media_cut_view.xml #generated:113
+# view res/layout/product_detail.xml #generated:341
+# view res/layout/product_search_all.xml #generated:167
+# view res/layout/repaire_before_after.xml #generated:73
+# view res/layout/tv_cut_view.xml #generated:163
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.artifex.mupdfdemo.MuPDFActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.artifex.mupdfdemo.OutlineActivity { <init>(...); }
+
+# view res/layout/player_controls_demo.xml #generated:23
+-keep class com.google.android.youtube.player.YouTubePlayerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class cx.hell.android.pdfview.OpenFileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class fnc.salesforce.android.Activity.AD_Gallery_10003 { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class fnc.salesforce.android.Activity.Catalog__10002 { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class fnc.salesforce.android.Activity.EDUCATION_Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class fnc.salesforce.android.Activity.Look_10001 { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class fnc.salesforce.android.Activity.MemberShip_Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class fnc.salesforce.android.Activity.Product_Search { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class fnc.salesforce.android.Activity.Promotion_10004 { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class fnc.salesforce.android.Activity.RepairInformaiton_Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class fnc.salesforce.android.Activity.ShopInformation { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class fnc.salesforce.android.Activity.ShopStopSystem { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class fnc.salesforce.android.BrandChoice { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class fnc.salesforce.android.Intro { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class fnc.salesforce.android.LIB.CallResultActivity { <init>(...); }
+
+# view res/layout/login_page.xml #generated:55
+-keep class fnc.salesforce.android.LIB.SlideButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class fnc.salesforce.android.LoginPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class fnc.salesforce.android.Look_10001.Look_10001_Sub_Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class fnc.salesforce.android.Main_Page { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class fnc.salesforce.android.Membership.MemberShip_Customer_Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class fnc.salesforce.android.OZ.OZViewerLocalActivity { <init>(...); }
+
+# view res/layout/member_customer_detail.xml #generated:168
+# view res/layout/membership_customer_search.xml #generated:218
+# view res/layout/repair_cost.xml #generated:220
+# view res/layout/shop_main.xml #generated:219
+-keep class fnc.salesforce.android.PullToList.BottomPullToRefreshView { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class fnc.salesforce.android.Repair.Repair_Before_After_Detail { <init>(...); }
+

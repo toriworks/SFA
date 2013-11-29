@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/at_commonbg_01">
+    
+    
+    <LinearLayout android:id = "@+id/llDocView"
+        android:layout_width="fill_parent"
+    	android:layout_height="match_parent" android:gravity="center" 
+    	android:layout_marginTop="58px"
+    	
+    	>
+        
+    </LinearLayout>
+    <LinearLayout android:id = "@+id/llGridView"
+        android:layout_width="fill_parent"
+    	android:layout_height="match_parent" android:gravity="center" android:layout_gravity="center"
+    	
+    	>
+    </LinearLayout>
+    
+    <include layout="@layout/header" />
+    
+   <RelativeLayout
+        android:id="@+id/layoutProductList"
+        android:layout_width="318px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="58px"
+        >
+        <ImageView 
+            android:id="@+id/imgProduct_btn"
+	     	android:layout_width="36px"
+	        android:layout_height="150px"
+	         android:background="@drawable/pdf_productlisttitle01"  
+     	/>
+        <RelativeLayout
+	        android:id="@+id/layoutProductList"
+	        android:layout_width="282px"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/pdf_productlistbg"
+	        android:layout_marginLeft="36px"
+	        >
+            <ListView
+		      	android:id="@+id/ProductList"
+		      	android:layout_width="282px"
+		        android:layout_height="1004px"
+		        android:fadingEdgeLength="0px"
+		        android:dividerHeight="0px"
+		        android:divider="#00000000"
+		        android:cacheColorHint="#00000000"
+		        
+		      />
+            </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layoutIndexList"
+        android:layout_width="195px"
+        android:layout_height="1178px"
+        android:layout_marginTop="55px"
+        android:background="@drawable/pdf_indexlistbg"
+        >
+        <ImageView 
+	     	android:layout_width="195px"
+	        android:layout_height="40px"
+	    	android:background="@drawable/pdf_indexlisttitle"   
+     	/>
+            <ListView
+		      	android:id="@+id/IndexList"
+		      	android:layout_width="195px"
+		        android:layout_height="1134px"
+		        android:fadingEdgeLength="0px"
+		        android:dividerHeight="0px"
+		        android:divider="#00000000"
+		        android:cacheColorHint="#00000000"
+		        android:layout_marginTop="42px"
+		      />
+            
+        </RelativeLayout>
+    
+    
+</FrameLayout>

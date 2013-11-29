@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/at_commonbg_01">
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="66px"
+    android:layout_gravity="top"
+    android:background="@drawable/at_sub_topbgline"
+    android:gravity="center_vertical"
+     android:id="@+id/llHeader"
+    android:orientation="horizontal" >
+
+        <Button
+        android:id="@+id/btnMenu_Activity"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/at_btn_menu" android:layout_marginLeft="10px" android:layout_marginBottom="3px"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="66px"
+        android:orientation="horizontal" android:layout_weight="1" android:gravity="center" android:id="@+id/llYearSelect">
+         <TextView 
+	        android:id="@+id/txt_lookBookDetail"
+	        android:layout_width="170px"
+	    	android:layout_height="66px"
+	    	android:textSize="22px"
+	    	android:gravity="center"
+	    	android:textColor="#ffffff"
+    	/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnCfg"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/pdf_btn_close_n" />
+
+	</LinearLayout>
+        
+    <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="760px"
+		android:layout_height="991px"
+		android:layout_marginLeft="20px"
+    	android:layout_marginTop="180px"
+           
+            >
+</android.support.v4.view.ViewPager>
+
+    <ImageView 
+            android:id="@+id/imgLeftContents"
+	     	android:layout_width="34px"
+	        android:layout_height="57px"
+	        android:layout_marginLeft="25px"
+	        android:layout_marginTop="610px"
+	         android:background="@drawable/at_lbk_leftarrow"  
+     	/>
+    
+    <ImageView 
+            android:id="@+id/imgRightContents"
+	     	android:layout_width="34px"
+	        android:layout_height="57px"
+	        android:layout_marginLeft="735px"
+	        android:layout_marginTop="610px"
+	         android:background="@drawable/at_lbk_rightarrow"  
+     	/>
+    
+   <RelativeLayout
+        android:id="@+id/layoutProductList"
+        android:layout_width="318px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="58px"
+        >
+        <ImageView 
+            android:id="@+id/imgProduct_btn"
+	     	android:layout_width="36px"
+	        android:layout_height="150px"
+	         android:background="@drawable/pdf_productlisttitle"  
+     	/>
+        <RelativeLayout
+	        android:id="@+id/layoutProductList"
+	        android:layout_width="282px"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/pdf_productlistbg"
+	        android:layout_marginLeft="36px"
+	        >
+            <ListView
+		      	android:id="@+id/ProductList"
+		      	android:layout_width="282px"
+		        android:layout_height="1004px"
+		        android:fadingEdgeLength="0px"
+		        android:dividerHeight="0px"
+		        android:divider="#00000000"
+		        android:cacheColorHint="#00000000"
+		        
+		      />
+            
+           <ProgressBar
+		    android:id="@+id/ProductListDialog"
+		    style="?android:attr/progressBarStyleLarge"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_marginLeft="100px"
+       		android:layout_marginTop="458px"
+		    
+		    />
+            </RelativeLayout>
+    </RelativeLayout>
+    
+</RelativeLayout>

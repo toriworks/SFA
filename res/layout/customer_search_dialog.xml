@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="486px"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    
+<RelativeLayout 
+    android:layout_width="486px"
+    android:layout_height="216px"
+    android:background="@drawable/at_sf_mem_popup_momember_bg"
+    >
+    <View 
+        android:layout_width="486px"
+	    android:layout_height="60px"
+	    android:background="@drawable/at_sf_popup_title_bg"   
+     />
+    
+    <Button 
+        android:id="@+id/btnClose"
+     	android:layout_width="37px"
+    	android:layout_height="40px"
+    	android:layout_marginLeft="439px"
+    	android:layout_marginTop="4px"
+      	android:background="@drawable/at_lp_btn_close_n"
+     />
+    
+    <ImageView
+     	android:layout_width="486px"
+    	android:layout_height="180px"
+    	android:layout_marginTop="50px"
+      	android:background="@drawable/at_sf_popup_pwinput_bg"
+     />
+    
+    <TextView 
+        android:layout_width="311px"
+    	android:layout_height="20px"
+    	android:layout_marginLeft="78px"
+    	android:layout_marginTop="65px"
+    	android:gravity="center_vertical"
+    	android:text="해당 메뉴 사용을 위해 비밀번호를 입력해주세요."
+    	android:textColor="#ffffff"
+    	android:textSize="13px"
+    />
+    <TextView 
+        android:layout_width="311px"
+    	android:layout_height="20px"
+    	android:layout_marginLeft="78px"
+    	android:layout_marginTop="83px"
+    	android:gravity="center_vertical"
+    	android:text="(고객 비밀번호 분실 시 매장 직원에게 문의 바랍니다.)"
+    	android:textColor="#ffffff"    	
+    	android:textSize="13px"
+    />
+    
+    <TextView 
+        android:layout_width="311px"
+    	android:layout_height="15px"
+    	android:layout_marginLeft="82px"
+    	android:layout_marginTop="110px"
+    	android:gravity="center_vertical"
+    	android:text="- 매장 : shopkoins 비밀번호"
+    	android:textColor="#66ffffff"    	
+    	android:textSize="11px"
+    />
+    <TextView 
+        android:layout_width="311px"
+    	android:layout_height="15px"
+    	android:layout_marginLeft="82px"
+    	android:layout_marginTop="125px"
+    	android:gravity="center_vertical"
+    	android:text="- 본사 : IKEN 비밀번호"
+    	android:textColor="#66ffffff"    	
+    	android:textSize="11px"
+    />
+    <View 
+        android:layout_width="200px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="78px"
+    	android:layout_marginTop="145px"
+    	android:background="@drawable/at_popup_pw_textbox"
+        
+     />
+    <EditText 
+        android:id="@+id/edit_Password"
+        android:layout_width="190px"
+    	android:layout_height="29px"
+    	android:layout_marginLeft="88px"
+    	android:layout_marginTop="145px"
+		android:textColor="#ffffff"
+		android:textSize="16px"
+		android:hint="비밀번호 입력"
+		android:inputType="textPassword"
+    	android:background="#00000000"
+     />
+    <Button 
+	        android:id="@+id/btnCofirm"
+	     	android:layout_width="92px"
+	    	android:layout_height="29px"
+	    	android:text="확인"
+	    	android:gravity="center"
+	    	android:textColor="#ffffff"
+	    	android:textSize="13px"
+	    	android:layout_marginLeft="288px"
+    		android:layout_marginTop="145px"
+	      	android:background="@drawable/at_popup_btn_bg01"
+	     />
+    
+    
+	</RelativeLayout>
+	
+<TextView 
+         android:layout_width="486px"
+    	android:layout_height="40px"
+    	android:gravity="center_vertical"
+    	android:layout_marginLeft="20px"
+    	android:layout_marginTop="4px"
+    	android:text="비밀번호 확인"   
+    	android:textColor="#ffffff"      
+        />
+
+</RelativeLayout>
